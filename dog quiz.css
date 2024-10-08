@@ -1,0 +1,90 @@
+body {
+  margin: none;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+header {
+  font-family: "PT Serif", serif;
+  width: 70%;
+  margin: 1em auto;
+  text-align: center;
+  font-size: x-large;
+}
+
+header p {
+  font-size: x-large;
+}
+
+main {
+  max-width: 70%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  column-gap: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+#image-frame {
+  font-size: x-large;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#explanation,
+#score {
+  padding: 1rem;
+  text-align: center;
+}
+
+#options {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+button {
+  font-family: "PT Serif", serif;
+  padding: 0.5rem;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: aliceblue;
+  border: 2px solid rgb(87, 131, 156);
+  max-width: 400px;
+}
+
+main button:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+
+main button:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.incorrect {
+  background-color: lightpink;
+}
+
+.hidden {
+  display: none;
+}
