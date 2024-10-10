@@ -94,7 +94,7 @@ main button:last-child {
   display: none;
 }
 
-@media screen and (max-width: 550px) {
+@media all and (max-width: 550px) {
   body {
     padding: 5px;
   }
