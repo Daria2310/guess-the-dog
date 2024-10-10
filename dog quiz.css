@@ -94,7 +94,7 @@ main button:last-child {
   display: none;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 550px) {
   main {
     width: 90%;
     display: flex;
