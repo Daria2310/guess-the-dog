@@ -77,6 +77,11 @@ main button:last-child {
   margin-top: 2rem;
 }
 
+.refresh button {
+  background-color: rgb(87, 131, 156);
+  color: aliceblue;
+}
+
 .correct {
   background-color: lightgreen;
 }
@@ -87,4 +92,26 @@ main button:last-child {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  button {
+    max-width: 400px;
+    width: 40vw;
+    margin: 0px auto;
+  }
+
+  .refresh {
+    width: 150px;
+    max-width: 90%;
+    margin: 20px auto;
+  }
 }
